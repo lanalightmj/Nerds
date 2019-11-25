@@ -111,8 +111,9 @@ li {
     color: #fff; }
 
 .about-us {
-  padding-top: 70px; }
+  padding-top: 40px; }
   .about-us__title {
+    padding-top: 35px;
     font-size: 45px;
     line-height: 45px;
     margin-bottom: 36px; }
@@ -127,9 +128,35 @@ li {
   .about-us__list-item {
     font-size: 1rem;
     line-height: 24px;
-    margin-bottom: 24px; }
+    margin-bottom: 24px;
+    color: #283136; }
   .about-us__list-img {
     margin-right: 11px; }
   .about-us__imj-logo {
-    margin-right: 0;
-    margin-left: auto; }
+    margin-bottom: 40px; }
+  .about-us__list-title2 {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 24px;
+    margin-bottom: 50px;
+    font-weight: 700; }
+  .about-us__num {
+    font-size: 45px;
+    font-weight: 700; }
+  .about-us__list-item2 {
+    font-size: 1rem;
+    line-height: 18px;
+    margin-bottom: 60px;
+    color: #283136; }
+
+.contacts {
+  padding-top: 74px;
+  height: 420px;
+  background-color: #eee; }
+  .contacts__info {
+    padding-top: 50px;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
+    font-size: 80px; }
