@@ -22,8 +22,11 @@ a {
   a:hover {
     text-decoration: none; }
 
-ul, li {
-  text-decoration: none; }
+ul {
+  padding-left: 0; }
+
+li {
+  list-style-type: none; }
 
 /* header */
 .header {
@@ -78,7 +81,7 @@ ul, li {
   height: inherit; }
 
 .choose {
-  padding-top: 80px; }
+  padding-top: 70px; }
   .choose__img {
     width: 83.33333%;
     margin-bottom: 25px; }
@@ -106,3 +109,27 @@ ul, li {
   background-color: #efc84a; }
   .btn-warning:hover {
     color: #fff; }
+
+.about-us {
+  padding-top: 70px; }
+  .about-us__title {
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 36px; }
+  .about-us__text {
+    font-size: 1rem;
+    margin-bottom: 44px; }
+  .about-us__list-title {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 2rem; }
+  .about-us__list-item {
+    font-size: 1rem;
+    line-height: 24px;
+    margin-bottom: 24px; }
+  .about-us__list-img {
+    margin-right: 11px; }
+  .about-us__imj-logo {
+    margin-right: 0;
+    margin-left: auto; }
