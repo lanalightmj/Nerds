@@ -180,28 +180,66 @@ li {
 		margin-bottom: 50px;
 		font-weight: 700;
 	}
-	&__num {
+	&__list-item2 {
+		width: 104.94px;
+	}
+	&__list-num {
 		font-size: 45px;
 		font-weight: 700;
+		line-height: inherit;
 	}
-	&__list-item2 {
+	&__list-text {
 		font-size: 1rem;
 		line-height: 18px;
-		margin-bottom: 60px;
-		color: #283136;
+		margin-bottom: 74px;
 	}
 }
 
+.logo {
+	padding-top: 30px;
+	&__img {
+		display: block;
+		margin: 0 auto;
+		opacity: 0.2;
+		padding-bottom: 30px;
+	}
+}
 
 .contacts {
-	padding-top: 74px;
 	height: 420px;
 	background-color: #eee;
-	&__info {
-		padding-top: 50px;
-		color: #FFF;
-		text-align: center;
-		font-weight: 700;
-		font-size: 80px;
+	&__map {
+		position: relative;
+/* 		overflow: hidden; */
+	  		iframe {
+	  			position: absolute;
+	  			max-width: none;
+	  			width: 100vw;
+	 			left: 50%;
+	 			transform: translate(-50%);
+	 			padding-left: -120px;
+	 			padding-right: -120px;
+	  		}
+	}
+}
+/* #map {
+        height: 400px;  The height is 400 pixels
+        width: 100%;  The width is the width of the web page
+       }
+ */
+
+.footer {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	&__icon {
+		width: 80px;
+		height: 80px;
+		opacity: .2;
+	}
+	&__title {
+		font-size: 36px;
+	}
+	&__text {
+		font-size: 1rem;
 	}
 }
