@@ -74,9 +74,6 @@ li {
 		height: auto; */
     /* width: 34.625rem; */ }
 
-/* .tablets{
-	width: 50%px;
-} */
 .carousel {
   height: inherit; }
 
@@ -177,11 +174,6 @@ li {
       padding-left: -120px;
       padding-right: -120px; }
 
-/* #map {
-        height: 400px;  The height is 400 pixels
-        width: 100%;  The width is the width of the web page
-       }
- */
 .footer {
   padding-top: 70px;
   padding-bottom: 70px; }
